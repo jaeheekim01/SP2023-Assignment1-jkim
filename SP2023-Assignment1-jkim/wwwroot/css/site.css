@@ -14,5 +14,33 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2596be;
+    color: black;
+    margin-bottom: 60px;
+}
+
+#CoverArt {
+    border-radius: 25%;
+    width: 400px;
+    height: auto;
+}
+
+#SummaryContainer {
+    max-width: 900px;
+}
+
+a {
+    color: #cb135c;
+}
+
+a:hover {
+    color: #73152c;
+}
+
+#LogoArt {
+    max-height: 100px;
 }
